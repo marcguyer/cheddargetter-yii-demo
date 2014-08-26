@@ -92,6 +92,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         puppet module install puppetlabs-git \
       && { puppet module list | grep tPl0ch-composer > /dev/null; } || \
         puppet module install tPl0ch-composer"
+	  && { puppet module list | grep puppetlabs-mysql > /dev/null; } || \
+        puppet module install puppetlabs-mysql"
   end
 
   # Enable provisioning with Puppet stand alone.  Puppet manifests
