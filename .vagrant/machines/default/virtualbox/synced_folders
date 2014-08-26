@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/wamp/www/cheddargetter-yii-demo","disabled":false},"/tmp/vagrant-puppet-3/manifests":{"owner":"root","guestpath":"/tmp/vagrant-puppet-3/manifests","hostpath":"C:/wamp/www/cheddargetter-yii-demo/manifests","disabled":false}}}
